@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1EC79759-9BC8-47A2-83C3-B0E347DAC9E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shapping</RootNamespace>
+    <AssemblyName>Shapping</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\UI\Bunifu UI Framework\Bunifu UI_v1.5.3 Crack\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main_last.Designer.cs">
+      <DependentUpon>frm_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Clients Last\client_main_last.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Clients Last\client_main_last.Designer.cs">
+      <DependentUpon>client_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Clients Last\frm_add_new_client_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Clients Last\frm_add_new_client_last.Designer.cs">
+      <DependentUpon>frm_add_new_client_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Clients Last\frm_see_selected_client_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Clients Last\frm_see_selected_client_last.Designer.cs">
+      <DependentUpon>frm_see_selected_client_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Deliver Last\deliver_main_last.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Deliver Last\deliver_main_last.Designer.cs">
+      <DependentUpon>deliver_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Deliver Last\frm_add_new_deliver_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Deliver Last\frm_add_new_deliver_last.Designer.cs">
+      <DependentUpon>frm_add_new_deliver_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Deliver Last\frm_edit_deliver_info_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Deliver Last\frm_edit_deliver_info_last.Designer.cs">
+      <DependentUpon>frm_edit_deliver_info_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Home Last\frm_bickup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Home Last\frm_bickup.Designer.cs">
+      <DependentUpon>frm_bickup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Home Last\home_main_last.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Home Last\home_main_last.Designer.cs">
+      <DependentUpon>home_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Notification\frm_assign_deliver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Notification\frm_assign_deliver.Designer.cs">
+      <DependentUpon>frm_assign_deliver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Notification\notification_main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Notification\notification_main.Designer.cs">
+      <DependentUpon>notification_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Orders Last\order_main_last.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Orders Last\order_main_last.Designer.cs">
+      <DependentUpon>order_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Reports Last\report_main_last.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Reports Last\report_main_last.Designer.cs">
+      <DependentUpon>report_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Staf\frm_add_new_mem_staf_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Staf\frm_add_new_mem_staf_last.Designer.cs">
+      <DependentUpon>frm_add_new_mem_staf_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Staf\frm_edit_new_mem_staf_last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Staf\frm_edit_new_mem_staf_last.Designer.cs">
+      <DependentUpon>frm_edit_new_mem_staf_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form Last\Staf\staf_main_last.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main Form Last\Staf\staf_main_last.Designer.cs">
+      <DependentUpon>staf_main_last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main_last.resx">
+      <DependentUpon>frm_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Clients Last\client_main_last.resx">
+      <DependentUpon>client_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Clients Last\frm_add_new_client_last.resx">
+      <DependentUpon>frm_add_new_client_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Clients Last\frm_see_selected_client_last.resx">
+      <DependentUpon>frm_see_selected_client_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Deliver Last\deliver_main_last.resx">
+      <DependentUpon>deliver_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Deliver Last\frm_add_new_deliver_last.resx">
+      <DependentUpon>frm_add_new_deliver_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Deliver Last\frm_edit_deliver_info_last.resx">
+      <DependentUpon>frm_edit_deliver_info_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Home Last\frm_bickup.resx">
+      <DependentUpon>frm_bickup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Home Last\home_main_last.resx">
+      <DependentUpon>home_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Notification\frm_assign_deliver.resx">
+      <DependentUpon>frm_assign_deliver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Notification\notification_main.resx">
+      <DependentUpon>notification_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Orders Last\order_main_last.resx">
+      <DependentUpon>order_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Reports Last\report_main_last.resx">
+      <DependentUpon>report_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Staf\frm_add_new_mem_staf_last.resx">
+      <DependentUpon>frm_add_new_mem_staf_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Staf\frm_edit_new_mem_staf_last.resx">
+      <DependentUpon>frm_edit_new_mem_staf_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form Last\Staf\staf_main_last.resx">
+      <DependentUpon>staf_main_last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

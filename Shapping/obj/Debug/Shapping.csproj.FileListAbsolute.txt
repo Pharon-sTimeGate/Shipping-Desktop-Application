@@ -1,0 +1,36 @@
+E:\Books\File Projects\Shapping\Shapping\bin\Debug\Shapping.exe.config
+E:\Books\File Projects\Shapping\Shapping\bin\Debug\Shapping.exe
+E:\Books\File Projects\Shapping\Shapping\bin\Debug\Shapping.pdb
+E:\Books\File Projects\Shapping\Shapping\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Books\File Projects\Shapping\Shapping\obj\Debug\Shapping.csprojResolveAssemblyReference.cache
+E:\Books\File Projects\Shapping\Shapping\obj\Debug\Shapping.frm_login.resources
+E:\Books\File Projects\Shapping\Shapping\obj\Debug\Shapping.Properties.Resources.resources
+E:\Books\File Projects\Shapping\Shapping\obj\Debug\Shapping.csproj.GenerateResource.Cache
+E:\Books\File Projects\Shapping\Shapping\obj\Debug\Shapping.exe
+E:\Books\File Projects\Shapping\Shapping\obj\Debug\Shapping.pdb
+E:\Books\Projects\Shapping\Shapping\bin\Debug\Shapping.exe.config
+E:\Books\Projects\Shapping\Shapping\bin\Debug\Shapping.exe
+E:\Books\Projects\Shapping\Shapping\bin\Debug\Shapping.pdb
+E:\Books\Projects\Shapping\Shapping\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.frm_login.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.frm_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Clients_Last.client_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Clients_Last.frm_add_new_client_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Clients_Last.frm_see_selected_client_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Deliver_Last.deliver_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Deliver_Last.frm_add_new_deliver_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Deliver_Last.frm_edit_deliver_info_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Home_Last.home_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Orders.order_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Reports_Last.report_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Staf.frm_add_new_mem_staf_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Staf.frm_edit_new_mem_staf_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Staf.staf_main_last.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Properties.Resources.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.csproj.GenerateResource.Cache
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.exe
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.pdb
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.csprojResolveAssemblyReference.cache
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Home_Last.frm_bickup.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Notification.frm_assign_deliver.resources
+E:\Books\Projects\Shapping\Shapping\obj\Debug\Shapping.Main_Form_Last.Notification.notification_main.resources
