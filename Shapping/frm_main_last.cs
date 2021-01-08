@@ -19,6 +19,7 @@ namespace Shapping
 
         private void btn_home_Click(object sender, EventArgs e)
         {
+            notification_main1.Hide();
             client_main_last1.Hide();
             deliver_main_last1.Hide();
             report_main_last1.Hide();
@@ -31,6 +32,8 @@ namespace Shapping
 
         private void btn_order_Click(object sender, EventArgs e)
         {
+            notification_main1.Hide();
+    
             home_main_last1.Hide();
             client_main_last1.Hide();
             deliver_main_last1.Hide();
@@ -42,6 +45,8 @@ namespace Shapping
 
         private void btn_client_Click(object sender, EventArgs e)
         {
+            notification_main1.Hide();
+
             home_main_last1.Hide();
             deliver_main_last1.Hide();
             report_main_last1.Hide();
@@ -53,6 +58,7 @@ namespace Shapping
 
         private void btn_deliver_Click(object sender, EventArgs e)
         {
+            notification_main1.Hide();
             home_main_last1.Hide();
             client_main_last1.Hide();
             report_main_last1.Hide();
@@ -66,6 +72,7 @@ namespace Shapping
 
         private void btn_staf_Click(object sender, EventArgs e)
         {
+            notification_main1.Hide();
             home_main_last1.Hide();
             client_main_last1.Hide();
             deliver_main_last1.Hide();
@@ -78,6 +85,7 @@ namespace Shapping
 
         private void btn_report_Click(object sender, EventArgs e)
         {
+            notification_main1.Hide();
             home_main_last1.Hide();
             client_main_last1.Hide();
             deliver_main_last1.Hide();
@@ -95,11 +103,24 @@ namespace Shapping
             report_main_last1.Hide();
             staf_main_last1.Hide();
             order_main_last1.Hide();
+            notification_main1.Hide();
         }
 
         private void lab_exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            home_main_last1.Hide();
+            client_main_last1.Hide();
+            deliver_main_last1.Hide();
+            report_main_last1.Hide();
+            staf_main_last1.Hide();
+            order_main_last1.Hide();
+            notification_main1.Show();
+
         }
     }
 }

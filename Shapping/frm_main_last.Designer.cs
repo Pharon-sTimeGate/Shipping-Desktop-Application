@@ -49,6 +49,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lab_exit = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.notification_main1 = new Shapping.Main_Form_Last.Notification.notification_main();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -58,6 +59,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.notification_main1);
             this.panel3.Controls.Add(this.staf_main_last1);
             this.panel3.Controls.Add(this.report_main_last1);
             this.panel3.Controls.Add(this.order_main_last1);
@@ -326,6 +328,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lab_exit
             // 
@@ -351,6 +354,15 @@
             this.label1.Size = new System.Drawing.Size(78, 31);
             this.label1.TabIndex = 2;
             this.label1.Text = "Menu";
+            // 
+            // notification_main1
+            // 
+            this.notification_main1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notification_main1.Location = new System.Drawing.Point(1, -2);
+            this.notification_main1.Margin = new System.Windows.Forms.Padding(4);
+            this.notification_main1.Name = "notification_main1";
+            this.notification_main1.Size = new System.Drawing.Size(754, 452);
+            this.notification_main1.TabIndex = 6;
             // 
             // frm_main_last
             // 
@@ -398,5 +410,6 @@
         private Main_Form_Last.Deliver_Last.deliver_main_last deliver_main_last1;
         private Main_Form_Last.Clients_Last.client_main_last client_main_last1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Main_Form_Last.Notification.notification_main notification_main1;
     }
 }
